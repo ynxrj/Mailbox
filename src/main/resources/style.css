@@ -1,0 +1,69 @@
+.mainBtn {
+    -fx-opacity: 1;
+    -fx-background-color: #ebb14d;
+    -fx-background-radius: 33;
+    -fx-text-fill: #ffffff;
+}
+
+.mainBtn:hover {
+    -fx-opacity: 1;
+    -fx-background-color: #faf2df;
+    -fx-background-radius: 100;
+    -fx-text-fill: #ebb14d;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 33;
+    -fx-border-color: #ebb14d;
+}
+
+.adminBtn {
+    -fx-text-fill: transparent;
+}
+
+
+.blockBtn {
+    -fx-opacity: 1;
+    -fx-background-color: #fe0000;
+    -fx-background-radius: 33;
+    -fx-text-fill: #ffffff;
+}
+
+.blockBtn:hover {
+    -fx-opacity: 1;
+    -fx-background-color: #fe0000;
+    -fx-background-radius: 100;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 33;
+    -fx-border-color: #ffffff;
+}
+
+.unblockBtn {
+    -fx-opacity: 1;
+    -fx-background-color: #47b881;
+    -fx-background-radius: 33;
+    -fx-text-fill: #ffffff;
+}
+
+.unblockBtn:hover {
+    -fx-opacity: 1;
+    -fx-background-color: #47b881;
+    -fx-background-radius: 100;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 33;
+    -fx-border-color: #ffffff;
+}
+
+.currentBtn {
+    -fx-background-color: #faf2df;
+    -fx-text-fill: #ebb14d;
+}
+
+.unusedBtn {
+    -fx-background-color: #ebb14d;
+    -fx-text-fill: #faf2df;
+    -fx-opacity: 0.75;
+}
+
+.unusedBtn:hover {
+    -fx-opacity: 1;
+}
+

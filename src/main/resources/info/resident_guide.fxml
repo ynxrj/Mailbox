@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="380.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="209.0" layoutY="21.0" text="Resident's Guide" textFill="#ebb14d">
+         <font>
+            <Font name="Gill Sans MT" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="73.0" prefHeight="33.0" prefWidth="615.0" text="1. Register to create your password before log in," textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="106.0" prefHeight="33.0" prefWidth="589.0" text="the host will gave you a username to register, so" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="182.0" prefHeight="33.0" prefWidth="615.0" text="2. Resident can only view stock list and received list " textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="215.0" prefHeight="33.0" prefWidth="589.0" text="(boxes sign and check sign) click on column to view" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="292.0" prefHeight="33.0" prefWidth="615.0" text="3. Resident can also change password in" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="251.0" prefHeight="33.0" prefWidth="589.0" text="data of any items that on the list." textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="327.0" prefHeight="33.0" prefWidth="564.0" text="change password page. (key sign)" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="139.0" prefHeight="33.0" prefWidth="589.0" text="you must be the one who live in building." textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

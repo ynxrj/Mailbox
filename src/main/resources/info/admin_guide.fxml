@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="380.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="223.0" layoutY="15.0" text="Admin's Guide" textFill="#ebb14d">
+         <font>
+            <Font name="Gill Sans MT" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="66.0" prefHeight="33.0" prefWidth="615.0" text="1. Log in to access as admin user, you can also change" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="99.0" prefHeight="33.0" prefWidth="589.0" text="your password in change password page (key sign)." textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="145.0" prefHeight="33.0" prefWidth="615.0" text="2. You can add host by filling host information in" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="178.0" prefHeight="33.0" prefWidth="589.0" text="adding page (plus sign), block - unblock any host" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="261.0" prefHeight="33.0" prefWidth="615.0" text="3. Host list (list sign) will show you any host that" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="329.0" prefHeight="33.0" prefWidth="435.0" text="in search bar to search a specific host." textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="214.0" prefHeight="33.0" prefWidth="589.0" text="on blocking page (ban sign) by filling host username." textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="296.0" prefHeight="33.0" prefWidth="570.0" text="you have added before and filling host information" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

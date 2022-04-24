@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="659.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="228.0" layoutY="14.0" text="Host's Guide" textFill="#ebb14d">
+         <font>
+            <Font name="Gill Sans MT" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="6.0" layoutY="66.0" prefHeight="33.0" prefWidth="632.0" text="1. After you have been added by admin, log in to access" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="134.0" prefHeight="33.0" prefWidth="589.0" text="change password page (key sign)." textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="8.0" layoutY="184.0" prefHeight="33.0" prefWidth="632.0" text="2. Create room before add resident to room," textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="273.0" prefHeight="33.0" prefWidth="615.0" text="3. After create room you're allow to add resident," textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="343.0" prefHeight="33.0" prefWidth="542.0" text="select room then add . don't forget to create " textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="308.0" prefHeight="33.0" prefWidth="596.0" text="in adding resident (people sign) filling all information" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="99.0" prefHeight="33.0" prefWidth="589.0" text="as host, you can also change you password in" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="220.0" prefHeight="33.0" prefWidth="589.0" text="in creating room (building sign) select every choice" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="378.0" prefHeight="33.0" prefWidth="542.0" text="username for your resident." textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="427.0" prefHeight="33.0" prefWidth="632.0" text="4. In stock manage (boxes sign) you can add items such" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="460.0" prefHeight="33.0" prefWidth="632.0" text="   letter, document and package by filling information" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="507.0" prefHeight="33.0" prefWidth="632.0" text="5. You can view and manage any items that you added" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="540.0" prefHeight="33.0" prefWidth="603.0" text="in stock list button, received to move items into" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="573.0" prefHeight="33.0" prefWidth="603.0" text="received list. you can also remove it if you don't" textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="606.0" prefHeight="33.0" prefWidth="603.0" text="want to keep it anymore." textFill="#464542">
+         <font>
+            <Font name="Gill Sans MT" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

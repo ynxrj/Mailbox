@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #faf2df;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mailbox.controllers.MailboxInfo">
+   <children>
+      <HBox layoutX="-3.0" prefHeight="110.0" prefWidth="800.0" style="-fx-background-color: #ebb14d;" AnchorPane.bottomAnchor="490.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="110.0" prefWidth="1088.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="264.0" layoutY="27.0" text="User's Manual" textFill="WHITE">
+                     <font>
+                        <Font name="Gill Sans MT" size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <JFXComboBox fx:id="selectBox" focusColor="#00000080" layoutX="392.0" layoutY="537.0" prefHeight="31.0" prefWidth="163.0" promptText="Select here" style="-fx-font-size: 20;" unFocusColor="#ebb14d" />
+      <Button fx:id="backBtn" cancelButton="true" layoutX="696.0" layoutY="536.0" mnemonicParsing="false" onAction="#handleBackBtn" prefHeight="48.0" prefWidth="82.0" styleClass="mainBtn" stylesheets="@../style.css" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT" size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" layoutX="70.0" layoutY="132.0" prefHeight="390.0" prefWidth="660.0">
+         <content>
+            <AnchorPane fx:id="guidePane" prefHeight="390.0" prefWidth="660.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="156.0" layoutY="139.0" prefHeight="43.0" prefWidth="347.0" text="Please Select Manaul" textFill="#ebb14d">
+                     <font>
+                        <Font name="Gill Sans MT" size="36.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIconView fill="#ebb14d" glyphName="ARROW_CIRCLE_ALT_DOWN" layoutX="304.0" layoutY="239.0" size="5em" text="" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Label alignment="CENTER" layoutX="246.0" layoutY="541.0" prefHeight="39.0" prefWidth="146.0" text="Select manual" textFill="#ebb14d">
+         <font>
+            <Font name="Gill Sans MT" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
